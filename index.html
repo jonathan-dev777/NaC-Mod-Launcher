@@ -8,30 +8,31 @@
   <link rel="icon" type="image/jpeg" href="assets/nac-logo.jpeg">
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 <header class="nav">
-  <a class="brand" href="#">
+  <a class="brand" href="#top" aria-label="NaC Startseite">
     <img src="assets/nac-logo.jpeg" alt="NaC Logo">
     <span>Nations and Civilizations</span>
   </a>
 
   <nav>
     <a href="#about">Über NaC</a>
-    <a href="#download">Download</a>
+    <a href="#features">Features</a>
+    <a href="#download">Downloads</a>
     <a href="#installation">Installation</a>
-    <a class="filevault-link" href="https://jonyxjr.github.io/datei-website/" target="_blank" rel="noopener">
+    <a href="#contact">Kontakt</a>
+    <a class="filevault-link" href="https://jonyxjr.github.io/datei-website/" target="_blank" rel="noopener noreferrer">
       Powered by <strong>FileVault</strong>
     </a>
   </nav>
 
-  <button id="theme" aria-label="Hell/Dunkel umschalten">☾</button>
+  <button id="theme" type="button" aria-label="Hell-/Dunkelmodus umschalten">☾</button>
 </header>
 
-<main>
+<main id="top">
   <section class="hero">
-    <div class="hero-image">
-      <img src="assets/nac-logo.jpeg" alt="Nations and Civilizations Logo">
+    <div class="hero-banner">
+      <img src="assets/nac-banner.jpeg" alt="Nations and Civilizations Banner">
     </div>
 
     <div class="badge">Minecraft Datapack · NaC</div>
@@ -39,23 +40,19 @@
     <h1>Nations and <em>Civilizations</em></h1>
 
     <p>
-      Ein mittelalterliches Minecraft-Datapack mit neuen und
-      überarbeiteten Strukturen sowie eigenen Custom Items.
+      Ein mittelalterliches Minecraft-Datapack mit neuen und überarbeiteten
+      Strukturen sowie eigenen Custom Items.
     </p>
 
     <div class="actions">
-      <!-- DATAPACK-DOWNLOAD: Hier später die echte ZIP-Datei ablegen. -->
-      <a class="btn primary"
-         href="downloads/Nations-and-Civilizations-NaC-v0.1.zip"
-         download>
+      <a class="btn primary" href="downloads/Nations-and-Civilizations-NaC-v0.1.zip" download>
         ↓ NaC v0.1 herunterladen
       </a>
-
-      <a class="btn" href="#installation">Installation ansehen</a>
+      <a class="btn" href="#download">Versionen ansehen</a>
     </div>
 
     <div class="facts">
-      <div><b>v0.1</b><small>Aktuelle Version</small></div>
+      <div><b>v0.1</b><small>Aktuelle Datapack-Version</small></div>
       <div><b>Seit 2025</b><small>In Entwicklung</small></div>
       <div><b>Java Edition</b><small>Minecraft</small></div>
     </div>
@@ -63,10 +60,9 @@
 
   <section id="about" class="section">
     <div class="title"><h2>Über NaC</h2></div>
-
     <div class="about-card">
       <p>
-        NaC (Nation and Civilisation’s) ist ein Datapack, das sich seit 2025
+        NaC (Nation and Civilisation’s) ist ein Datapack für 1.21.11, das sich seit 2025
         in Entwicklung befindet und sich auf einen mittelalterlichen
         Themenbereich konzentriert. Ziel des Projekts ist es, die Spielwelt
         durch neue sowie überarbeitete Strukturen zu erweitern und ein
@@ -74,69 +70,129 @@
         Items hinzugefügt, um das Gameplay weiter zu bereichern.
       </p>
     </div>
+  </section>
 
+  <section id="features" class="section">
+    <div class="title"><h2>Features</h2></div>
     <div class="feature-grid">
-      <article><span>🏰</span><h3>Mittelalter</h3><p>Ein mittelalterlich geprägtes Spielerlebnis.</p></article>
-      <article><span>🌍</span><h3>Neue Strukturen</h3><p>Erweitere die Welt mit neuen Strukturen.</p></article>
+      <article><span>🏰</span><h3>Mittelalterliches Setting</h3><p>NaC konzentriert sich auf einen mittelalterlichen Themenbereich.</p></article>
+      <article><span>🌍</span><h3>Neue Strukturen</h3><p>Die Spielwelt wird durch neue Strukturen erweitert.</p></article>
       <article><span>🏗️</span><h3>Überarbeitete Strukturen</h3><p>Bestehende Strukturen werden erweitert und überarbeitet.</p></article>
       <article><span>⚔️</span><h3>Custom Items</h3><p>Eigene Items erweitern die Gameplay-Möglichkeiten.</p></article>
     </div>
   </section>
 
   <section id="download" class="section">
-    <div class="title"><h2>Downloads</h2></div>
+    <div class="title"><h2>Release Center</h2></div>
 
-    <div class="download-card">
-      <div>
-        <span class="version">LATEST · v0.1</span>
+    <div class="release latest">
+      <div class="release-main">
+        <div class="release-topline">
+          <span class="version">v0.1</span>
+          <span class="status">LATEST</span>
+        </div>
         <h3>Nations and Civilizations</h3>
-        <p>Die aktuellste verfügbare NaC-Version.</p>
+        <p>Die aktuell bereitgestellte NaC-Version.</p>
+        <div class="release-meta">
+          <span>📦 Datapack</span>
+          <span>🎮 Minecraft Java Edition</span>
+          <span>⬇ ZIP Download</span>
+        </div>
       </div>
-
-      <!-- DATAPACK-DOWNLOAD: Die ZIP-Datei muss genau so heißen wie im href. -->
-      <a class="btn primary"
-         href="downloads/Nations-and-Civilizations-NaC-v0.1.zip"
-         download>
-        Download .ZIP
-      </a>
+      <div class="release-actions">
+        <button class="btn changelog-link" type="button" data-changelog="changelog-v0-1">
+          Changelog
+        </button>
+        <a class="btn primary" href="downloads/Nations-and-Civilizations-NaC-v0.1.zip" download>
+          Download v0.1
+        </a>
+      </div>
     </div>
 
-    <div class="older">
+    <div class="release-notes">
       <h3>Weitere Versionen</h3>
-      <p>Ältere Versionen von NaC können hier später ergänzt werden.</p>
-
-      <!--
-        BEISPIEL FÜR SPÄTERE VERSIONEN:
-
-        <a href="downloads/Nations-and-Civilizations-NaC-v0.0.1.zip" download>
-          NaC v0.0.1 herunterladen
-        </a>
-      -->
+      <p>Hier werden künftig ältere NaC-Releases und weitere Versionen angezeigt.</p>
+      <div class="placeholder-version">Noch keine weiteren Versionen verfügbar.</div>
     </div>
   </section>
 
-  <section id="installation" class="section">
-    <div class="title"><h2>Installation</h2></div>
+  <!-- Changelog Modal -->
+  <div id="changelogModal" class="modal-overlay" aria-hidden="true">
+    <div class="changelog-modal" role="dialog" aria-modal="true" aria-labelledby="changelogModalTitle">
 
+      <button class="modal-close" type="button" aria-label="Changelog schließen">
+        ×
+      </button>
+
+      <div id="changelog-v0-1" class="changelog-content">
+
+        <div class="changelog-header">
+          <div>
+            <span class="version">v0.1</span>
+            <h2 id="changelogModalTitle">Initial Release</h2>
+          </div>
+
+          <span class="status">LATEST</span>
+        </div>
+
+        <div class="changelog-grid">
+
+          <div>
+            <h4>ADDED</h4>
+
+            <ul>
+              <li>Erste NaC-Version</li>
+              <li>Größere Landschaft</li>
+              <li>Besseres Crafting</li>
+              <li>Stahl (noch kein Nutzen & und Textur nicht inhalten)</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>FIXED</h4>
+
+            <ul>
+              
+            </ul>
+          </div>
+
+          <div>
+            <h4>REMOVED</h4>
+
+            <ul>
+              
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<section id="installation" class="section">
+    <div class="title"><h2>Installation</h2></div>
     <div class="steps">
-      <article><b>1</b><div><h3>NaC herunterladen</h3><p>Lade die gewünschte NaC-ZIP-Datei über den Download-Button herunter.</p></div></article>
-      <article><b>2</b><div><h3>Minecraft Java Edition öffnen</h3><p>Starte Minecraft Java Edition und wähle deine Welt aus.</p></div></article>
+      <article><b>1</b><div><h3>NaC herunterladen</h3><p>Lade die gewünschte NaC-ZIP-Datei über das Release Center herunter.</p></div></article>
+      <article><b>2</b><div><h3>Minecraft Java Edition öffnen</h3><p>Starte Minecraft Java Edition in der 1.21.11 und wähle die Welt aus, in der du NaC verwenden möchtest.</p></div></article>
       <article><b>3</b><div><h3>Weltordner öffnen</h3><p>Öffne den Speicherordner deiner Welt und suche den Ordner <code>datapacks</code>.</p></div></article>
-      <article><b>4</b><div><h3>ZIP-Datei einfügen</h3><p>Lege die NaC-ZIP-Datei in <code>datapacks</code>. <strong>Nicht entpacken.</strong></p></div></article>
-      <article><b>5</b><div><h3>Welt neu laden</h3><p>Lade die Welt neu oder starte Minecraft erneut.</p></div></article>
-      <article><b>6</b><div><h3>NaC spielen</h3><p>NaC ist jetzt in deiner Welt installiert.</p></div></article>
+      <article><b>4</b><div><h3>ZIP-Datei einfügen</h3><p>Lege die heruntergeladene NaC-ZIP-Datei in <code>datapacks</code>. <strong>Nicht entpacken.</strong></p></div></article>
+      <article><b>5</b><div><h3>Welt neu laden</h3><p>Lade deine Welt neu oder starte Minecraft erneut, damit das Datapack erkannt wird.</p></div></article>
+      <article><b>6</b><div><h3>NaC verwenden</h3><p>Das Datapack ist jetzt in deiner Welt installiert.</p></div></article>
     </div>
 
     <div class="notice">
       <strong>Wichtig:</strong>
-      <span>Die ZIP-Datei des Datapacks wird direkt in den <code>datapacks</code>-Ordner gelegt.</span>
+      <span>Die NaC-ZIP-Datei gehört direkt in den <code>datapacks</code>-Ordner deiner Welt.</span>
     </div>
   </section>
 </main>
 
 <footer>
   <div><b>NaC</b> · Nations and Civilizations</div>
-  <a href="https://jonyxjr.github.io/datei-website/" target="_blank" rel="noopener">
+  <selection id="contact">
+    <a href="https://whatsapp.com/channel/0029VbCF9S9JJhzamly5Ga3s" target="_blank" rel="noopener noreferrer">WhatsApp-Kanal</a>
+  </selection>
+  <a href="https://jonyxjr.github.io/datei-website/" target="_blank" rel="noopener noreferrer">
     Powered by <strong>FileVault</strong>
   </a>
 </footer>
