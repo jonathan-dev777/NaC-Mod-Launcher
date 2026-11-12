@@ -281,3 +281,10 @@ footer a:hover{color:var(--text)}
 @media(prefers-reduced-motion:reduce){
   *,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}
 }
+
+/* Corrections: combined feature package and uploaded preview */
+.feature-preview img{aspect-ratio:1671/941;object-fit:cover}
+.feature-actions{grid-template-columns:minmax(0,1fr)}
+.nav nav .nav-changelog{padding:0;border:0;background:transparent;color:var(--muted);font:inherit;cursor:pointer}
+.nav nav .nav-changelog:hover{color:var(--text)}
+@media(max-width:900px){.nav nav .nav-changelog{display:none}}
