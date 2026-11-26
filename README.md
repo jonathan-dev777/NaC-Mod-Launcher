@@ -1,16 +1,70 @@
-# NaC Website v0.4 - Fixed
+# 🏰 NaC Mod Launcher
 
-## Änderungen
-- Changelog nicht mehr im Header
-- Changelog öffnet sich als Modal-Fenster
-- bisheriges Changelog-Design als Grundlage beibehalten
-- Changelog per X, ESC oder Klick außerhalb schließen
-- Changelog-Button links/innen und Download-Button rechts/außen
-- vorbereitet für versionsbezogene Changelogs
+Eine Website für das Minecraft-Datapack **Nations and Civilizations (NaC)** mit Download-Center für vollständige Updates und optionale Erweiterungen.
 
-## Versionen
-- Website: v0.4 - Fixed
-- Datapack: v0.1
+🌐 **Website:** [NaC öffnen](https://nac-datapack.pages.dev/)
 
-## Hosting
-Statische Website ohne Account und ohne Backend.
+---
+
+## 📸 Website-Einblicke
+
+### Startseite
+
+<p align="center">
+  <img src="assets/website-startseite.png" width="850" alt="Startseite des NaC Mod Launchers" />
+</p>
+
+### Download Center – Updates
+
+<p align="center">
+  <img src="assets/website-download-center-updates.png" width="850" alt="Download Center mit verfügbaren NaC-Versionen" />
+</p>
+
+### Download Center – Features
+
+<p align="center">
+  <img src="assets/website-download-center-features.png" width="850" alt="Download Center mit verfügbaren Erweiterungen und Features" />
+</p>
+
+---
+
+## ✨ Funktionen
+
+- 📦 Zentrale Übersicht über verfügbare NaC-Inhalte und Downloads
+- 🧩 Zusätzliche Erweiterungen und Features entdecken und herunterladen
+- ⬇️ Benötigte Dateien direkt herunterladen
+- 📖 Installationsanleitungen für Updates und Erweiterungen
+
+---
+
+## 🛠️ Technologien
+
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+
+---
+
+## 📦 Entwicklungsstand
+
+**Aktuelle NaC-Version:** 0.1.1
+
+**Kompatibilität:** Minecraft Java Edition 1.21.11
+
+Die Website wird kontinuierlich weiterentwickelt und um neue Downloadmöglichkeiten und Erweiterungen ergänzt.
+
+---
+
+## 🔮 Zukunft
+
+Das Download-Center soll zukünftig um weitere NaC-Inhalte, Updates und optionale Erweiterungen ergänzt werden.
+
+---
+
+## 👨‍💻 Entwickler
+
+**Jonathan**
