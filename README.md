@@ -6,34 +6,46 @@ Eine Website für das Minecraft-Datapack **Nations and Civilizations (NaC)** mit
 
 ---
 
-## 📸 Einblicke
+## 📸 Website-Einblicke
 
-### Nations and Civilizations
+### Startseite
 
 <p align="center">
-  <img src="assets/nac-banner.jpeg" width="850" alt="Nations and Civilizations Banner" />
+  <img src="assets/website-startseite.png" width="850" alt="Startseite des NaC Mod Launchers" />
 </p>
 
-### Container Inspector
+### Download Center – Updates
 
 <p align="center">
-  <img src="assets/container-inspector-preview.png" width="650" alt="Container Inspector Vorschau" />
+  <img src="assets/website-download-center-updates.png" width="850" alt="Download Center mit verfügbaren NaC-Versionen" />
+</p>
+
+### Download Center – Features
+
+<p align="center">
+  <img src="assets/website-download-center-features.png" width="850" alt="Download Center mit verfügbaren Erweiterungen und Features" />
 </p>
 
 ---
 
 ## ✨ Funktionen
 
-- 📦 Download-Center für vollständige NaC-Updates
-- 🧩 Optionale Features separat herunterladen
-- ⬇️ Datapack- und Resourcepack-Pakete bereitstellen
+- 📦 Zentrale Übersicht über verfügbare NaC-Inhalte und Downloads
+- 🧩 Zusätzliche Erweiterungen und Features entdecken und herunterladen
+- ⬇️ Benötigte Dateien direkt herunterladen
 - 📖 Installationsanleitungen für Updates und Erweiterungen
 
 ---
 
 ## 🛠️ Technologien
 
-<!-- Technologien hier einfügen -->
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 
 ---
 
@@ -43,13 +55,13 @@ Eine Website für das Minecraft-Datapack **Nations and Civilizations (NaC)** mit
 
 **Kompatibilität:** Minecraft Java Edition 1.21.11
 
-Die Website und das Datapack werden kontinuierlich weiterentwickelt.
+Die Website wird kontinuierlich weiterentwickelt und um neue Downloadmöglichkeiten und Erweiterungen ergänzt.
 
 ---
 
 ## 🔮 Zukunft
 
-NaC wird kontinuierlich weiterentwickelt. Weitere Updates, neue Inhalte und optionale Features sollen zukünftig über das Download-Center verfügbar gemacht werden.
+Das Download-Center soll zukünftig um weitere NaC-Inhalte, Updates und optionale Erweiterungen ergänzt werden.
 
 ---
 
