@@ -1,6 +1,6 @@
 # 🏰 NaC Mod Launcher
 
-Eine Website für das Minecraft-Datapack **Nations and Civilizations (NaC)** mit Download-Center für vollständige Updates und optionale Erweiterungen.
+Eine Website für Nations and Civilizations (NaC), die zentrale Plattform für Downloads, Updates und Erweiterungen des Minecraft-Datapacks.
 
 🌐 **Website:** [NaC öffnen](https://nac-datapack.pages.dev/)
 
